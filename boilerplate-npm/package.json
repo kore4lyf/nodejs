@@ -1,7 +1,11 @@
 {
-  "author": "Faleye Korede",
 	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
+	"author": "Korede Faleye",
+  "description": "Backend Development and APIs",
+  "keywords": ["Backend", "Backend Development", "APIs", "freecodecamp"],
+  "license": "MIT",
+  "version": "1.0.0",
+  "dependencies": {
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
@@ -13,3 +17,4 @@
 		"url": "https://idontknow/todo.git"
 	}
 }
+
