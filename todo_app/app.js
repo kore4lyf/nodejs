@@ -1,3 +1,5 @@
+require('./db/connect')
+
 const express = require('express')
 const app = express() 
 const tasks = require('./routes/tasks') 
@@ -5,7 +7,7 @@ const tasks = require('./routes/tasks')
 const port = process.env.PORT || 3000 
 
 // middleware 
-app.use(express.json())
+app.use('*', express.json())
 
 // routes 
 app.get('/', (req, res) => {

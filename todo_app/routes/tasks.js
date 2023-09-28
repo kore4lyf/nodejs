@@ -12,7 +12,7 @@ const {
 
 router.route('/')
   .get(getAllTasks)
-  .post(create(createTask))
+  .post(createTask)
 
 router.route('/:id')
   .get(getTask)
