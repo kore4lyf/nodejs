@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 
 
-const connectDB = uri => {
-  mongoose.connect(uri, 
+const connectDB = URI => {
+  mongoose.connect(URI, 
     {
       useNewUrlParser: true,
       useCreateIndex: true, 
